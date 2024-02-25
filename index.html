@@ -32,22 +32,28 @@
 			<div class="content">
 				<div class="inner">
 					<h1>Zhengkun Lou</h1>
-					<h2> High Lights: </h2>
-					<h3>
-						&bull; Specialized Computer Science @York University <br>
-						&bull; 5+ years of experience in software development <br>
-						&bull; Main languages: Java, JavaScript, C, C++, Python, PHP. <br>
-						&bull; Experiencing: Android to iOS, Web to Desktop, Frontend to Backend <br>
 
+					<button id="mypic" type="button" class="btn btn-info">My Picture?</button>
+					<div id="demo" style="display: none;">
+						<img src="C:\Users\Daddy\Desktop\Pearsonal-page\images\mypicture.jpg" alt="My Picture"
+							class="profile-picture">
+					</div>
+
+					<h2>High Lights:</h2>
+					<h3>
+						<span class="slide-in-text">&bull; Specialized Computer Science @York University</span> <br>
+						<span class="slide-in-text">&bull; 5+ years of experience in software development</span> <br>
+						<span class="slide-in-text">&bull; Main languages: Java, JavaScript, C, C++, Python,
+							PHP.</span><br>
+						<span class="slide-in-text">&bull; Experiencing: Android to iOS, Web to Desktop, Frontend to
+							Backend</span> <br>
 					</h3>
 
 				</div>
 				<div>
-					<h1>
-						Let's check them out! <br>
-					</h1>
+					<h1>Let's check them out! <br></h1>
 					<div>
-						<article class="6u 12u$(xsmall) work-item">
+						<article class="6u 12u$(xsmall) work-item fade-in-text">
 							<a href="/2023/10/15/reception-form-and-name-card-printing/List.png"
 								class="image fit thumb"><img
 									src="/2023/10/15/reception-form-and-name-card-printing/450.png"
@@ -58,8 +64,7 @@
 							<p></p>
 						</article>
 
-
-						<article class="6u$ 12u$(xsmall) work-item">
+						<article class="6u$ 12u$(xsmall) work-item fade-in-text">
 							<a href="/2023/07/15/event-posting-and-management-platform/EvtGo.png"
 								class="image fit thumb"><img
 									src="/2023/07/15/event-posting-and-management-platform/450.png"
@@ -70,19 +75,18 @@
 							<p></p>
 						</article>
 
-
-						<article class="6u 12u$(xsmall) work-item">
+						<article class="6u 12u$(xsmall) work-item fade-in-text">
 							<a href="/2023/05/02/garbage-sorting-using-object-detection-cnn/AI-1.png"
 								class="image fit thumb"><img
 									src="/2023/05/02/garbage-sorting-using-object-detection-cnn/450.png"
-									title="Campus eating applicaion" alt="" /></a>
+									title="Campus eating application" alt="" /></a>
 							<a href="/2023/05/02/garbage-sorting-using-object-detection-cnn/">
-								<h3>Campus eating applicaion </h3>
+								<h3>Campus eating application</h3>
 							</a>
 						</article>
 
-						<button id="seeMoreButton" type="button" class="btn btn-info">See more?</button>
-						<div id="demo" style="display: none;">
+						<button id="seeMoreButton" type="button" class="btn btn-info">Interested in more?</button>
+						<div id="proj" style="display: none;">
 							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="/2023/04/15/simple-helpdesk-program-using-websocket/1.png"
 									class="image fit thumb"><img
@@ -137,16 +141,3 @@
 </body>
 
 </html>
-
-<script>
-	document.getElementById('seeMoreButton').addEventListener('click', function () {
-		var demo = document.getElementById('demo');
-		if (demo.style.display === 'none') {
-			demo.style.display = 'block';
-			this.textContent = 'See less?';
-		} else {
-			demo.style.display = 'none';
-			this.textContent = 'See more?';
-		}
-	});
-</script>

@@ -399,3 +399,26 @@
 					});
 
 })(jQuery);
+
+document.getElementById('mypic').addEventListener('click', function () {
+    var demo = document.getElementById('demo');
+    if (demo.style.display === 'none') {
+        demo.style.display = 'block';
+        this.textContent = '^';
+		this.style.display = 'none'; 
+    } else {
+        demo.style.display = 'none';
+        this.textContent = 'My Picture?';
+    }
+});
+
+	document.getElementById('seeMoreButton').addEventListener('click', function () {
+		var proj = document.getElementById('proj');
+		if (proj.style.display === 'none') {
+			proj.style.display = 'block';
+			this.textContent = 'Lou is great?';
+		} else {
+			proj.style.display = 'none';
+			this.textContent = 'Of course!';
+		}
+	});

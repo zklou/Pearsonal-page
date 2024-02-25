@@ -71,6 +71,121 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/*background picture*/
+.btn-info {
+    background-color: #3c2f4e;
+    color: white;
+    border: none;
+    padding: 5x 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-custom {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn-custom:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+.profile-picture {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Adjust margin as needed */
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-text {
+    opacity: 0;
+    animation: slideIn 1s ease forwards;
+}
+
+.slide-in-text:nth-child(1) {
+    animation-delay: 0.5s; /* Delay for the first item */
+}
+
+.slide-in-text:nth-child(2) {
+    animation-delay: 0.6s; /* Delay for the second item */
+}
+
+.slide-in-text:nth-child(3) {
+    animation-delay: 0.8s; /* Delay for the third item */
+}
+
+.slide-in-text:nth-child(4) {
+    animation-delay: 1s; /* Delay for the fourth item */
+}
+
+.slide-in-text:nth-child(5) {
+    animation-delay: 1.2s; /* Delay for the third item */
+}
+
+.slide-in-text:nth-child(6) {
+    animation-delay: 1.3s; /* Delay for the fourth item */
+}
+.slide-in-text:nth-child(7) {
+    animation-delay: 1.5s; /* Delay for the third item */
+}
+
+/* project fadein I dont like */
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 0;
+    }
+}
+
+.fade-in-text:nth-child(1) {
+    animation: fadeIn 2s ease forwards 1s; /* Delay for the first item */
+}
+
+.fade-in-text:nth-child(2) {
+    animation: fadeIn 3s ease forwards 2s; /* Delay for the second item */
+}
+
+.fade-in-text:nth-child(3) {
+    animation: fadeIn 4s ease forwards 3s; /* Delay for the third item */
+}
+
+.fade-in-text:nth-child(4) {
+    animation: fadeIn 5s ease forwards 4s; /* Delay for the first item */
+}
+
+.fade-in-text:nth-child(5) {
+    animation: fadeIn 6s ease forwards 5s; /* Delay for the second item */
+}
+
+.fade-in-text:nth-child(6) {
+    animation: fadeIn 7s ease forwards 6s; /* Delay for the third item */
+}
+
+
 
 /* Basic */
 
@@ -1140,9 +1255,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
