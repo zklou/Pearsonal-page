@@ -153,11 +153,11 @@ input, select, textarea {
 
 /* project fadein I dont like */
 @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
-    }
-    85% {
-        opacity: 0;
     }
 }
 
@@ -294,7 +294,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		/*text-transform: uppercase; */
 		letter-spacing: 0.2rem;
 	}
 
@@ -497,7 +497,7 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		/*text-transform: uppercase; */
 	}
 
 	input[type="text"],
@@ -620,7 +620,7 @@ input, select, textarea {
 				font-variant: normal;
 				text-rendering: auto;
 				line-height: 1;
-				text-transform: none !important;
+				/*text-transform: none !important; */
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
@@ -1142,7 +1142,7 @@ input, select, textarea {
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/*text-transform: uppercase; */
 		white-space: nowrap;
 	}
 
@@ -1444,7 +1444,7 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				/*text-transform: uppercase; */
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
@@ -1477,7 +1477,7 @@ input, select, textarea {
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
+					/*text-transform: uppercase; */
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
